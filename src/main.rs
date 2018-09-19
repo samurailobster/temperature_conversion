@@ -62,9 +62,11 @@ fn main() {
         println!("Enter choice: ");
     }
 
+
+
         
-    fn convert_to_fahrenheit(temp : f32 ) {
-        let f_temp = (temp * 1.8) + 32.0;
+    fn convert_to_fahrenheit(temp : f32) {
+        let f_temp  = (temp * 1.8) + 32.0;
         println!("{} degrees Celsius converts to {} degrees Fahrenheit.\n", temp, f_temp);
     }
 
